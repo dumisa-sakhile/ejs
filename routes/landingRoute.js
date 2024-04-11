@@ -2,7 +2,7 @@ const router = require('express').Router();
 const {
   aboutController,
   indexRouter,
-} = require('controllers/controller');
+} = require('./controllers/controller');
 
 router.get("/", indexRouter);
 
